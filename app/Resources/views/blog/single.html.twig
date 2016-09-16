@@ -1,0 +1,19 @@
+{# empty Twig template #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h3>{{ single.title }}</h3>
+    <img src=' {{ single.image }}'>
+    <p>{{ single.description }}</p>
+           <span>{% if single.createdAt %}{{ single.createdAt|date('Y-m-d H:i:s') }}{% endif %}</span>
+    <ul>
+        <li>
+            <a href="{{ path('blog_blog_homepage') }}">
+                <button class="btn waves-effect waves-light"  
+                <i class="material-icons right">Retour à l'accueil</i>
+                </button>
+            </a>
+        </li>
+    </ul>
+{% endblock %}

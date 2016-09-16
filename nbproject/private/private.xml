@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Controller/PostController.php</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/User.php</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Resources/views/blog/home.html.twig</file>
+            <file>file:/home/moktarba/www/yoblog/app/Resources/views/category/index.html.twig</file>
+            <file>file:/home/moktarba/www/yoblog/app/Resources/views/user/index.html.twig</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Resources/config/routing.yml</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/Image.php</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/Post.php</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Resources/config/services.yml</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Controller/HomeController.php</file>
+            <file>file:/home/moktarba/www/yoblog/app/Resources/views/post/index.html.twig</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Form/UserType.php</file>
+            <file>file:/home/moktarba/www/yoblog/app/AppKernel.php</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Form/PostType.php</file>
+            <file>file:/home/moktarba/www/yoblog/src/Blog/BlogBundle/Form/CategoryType.php</file>
+        </group>
+    </open-files>
+</project-private>

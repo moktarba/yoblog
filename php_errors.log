@@ -1,0 +1,450 @@
+[15-Sep-2016 10:03:27 Europe/Berlin] PHP Fatal error:  Class 'AppBundle\AppBundle' not found in /home/moktarba/www/yoblog/app/AppKernel.php on line 18
+[15-Sep-2016 10:03:27 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 10:03:27 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 10:03:27 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 10:03:27 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 10:03:27 Europe/Berlin] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:68
+[15-Sep-2016 10:03:27 Europe/Berlin] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:114
+[15-Sep-2016 10:03:27 Europe/Berlin] PHP   6. AppKernel->registerBundles() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:396
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 6
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Loader->loadFromDirectory() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:101
+[15-Sep-2016 14:16:54 Europe/Berlin] PHP   9. Doctrine\Common\DataFixtures\Loader->loadFromIterator() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Loader.php:82
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 6
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Loader->loadFromDirectory() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:101
+[15-Sep-2016 14:17:20 Europe/Berlin] PHP   9. Doctrine\Common\DataFixtures\Loader->loadFromIterator() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Loader.php:82
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 6
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Loader->loadFromDirectory() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:101
+[15-Sep-2016 14:19:00 Europe/Berlin] PHP   9. Doctrine\Common\DataFixtures\Loader->loadFromIterator() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Loader.php:82
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 6
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Loader->loadFromDirectory() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:101
+[15-Sep-2016 14:22:09 Europe/Berlin] PHP   9. Doctrine\Common\DataFixtures\Loader->loadFromIterator() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Loader.php:82
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\Entity\Post::setCreated() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 18
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[15-Sep-2016 14:48:58 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121
+[15-Sep-2016 17:40:10 Europe/Berlin] PHP Fatal error:  Class 'FOS\UserBundle\FOSUserBundle' not found in /home/moktarba/www/yoblog/app/AppKernel.php on line 20
+[15-Sep-2016 17:40:10 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:40:10 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:40:10 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:40:10 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:40:10 Europe/Berlin] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:68
+[15-Sep-2016 17:40:10 Europe/Berlin] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:114
+[15-Sep-2016 17:40:10 Europe/Berlin] PHP   6. AppKernel->registerBundles() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:396
+[15-Sep-2016 17:42:32 Europe/Berlin] PHP Fatal error:  Class 'FOS\UserBundle\FOSUserBundle' not found in /home/moktarba/www/yoblog/app/AppKernel.php on line 20
+[15-Sep-2016 17:42:32 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:42:32 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:42:32 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:42:32 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:42:32 Europe/Berlin] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:68
+[15-Sep-2016 17:42:32 Europe/Berlin] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:114
+[15-Sep-2016 17:42:32 Europe/Berlin] PHP   6. AppKernel->registerBundles() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:396
+[15-Sep-2016 17:43:27 Europe/Berlin] PHP Fatal error:  Class 'FOS\UserBundle\FOSUserBundle' not found in /home/moktarba/www/yoblog/app/AppKernel.php on line 20
+[15-Sep-2016 17:43:27 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:43:27 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:43:27 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:43:27 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:43:27 Europe/Berlin] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:68
+[15-Sep-2016 17:43:27 Europe/Berlin] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:114
+[15-Sep-2016 17:43:27 Europe/Berlin] PHP   6. AppKernel->registerBundles() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:396
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP Fatal error:  Cannot use Doctrine\ORM\Mapping as ORM because the name is already in use in /home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/User.php on line 8
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:68
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:117
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   6. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:489
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   7. appDevDebugProjectContainer->getCacheWarmerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:427
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP   9. appDevDebugProjectContainer->getTwigService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  10. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3420
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  11. appDevDebugProjectContainer->getSecurity_AuthorizationCheckerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  12. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:2386
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  13. appDevDebugProjectContainer->getSecurity_Authentication_ManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  14. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3829
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  15. appDevDebugProjectContainer->getFosUser_UserProvider_UsernameService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  16. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3795
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  17. appDevDebugProjectContainer->getFosUser_UserManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  18. FOS\UserBundle\Doctrine\UserManager->__construct() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:1743
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  19. Doctrine\ORM\EntityManager->getRepository() /home/moktarba/www/yoblog/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php:40
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  20. Doctrine\ORM\Repository\DefaultRepositoryFactory->getRepository() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  21. Doctrine\ORM\EntityManager->getClassMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Repository/DefaultRepositoryFactory.php:44
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  22. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getMetadataFor() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:281
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  23. Doctrine\ORM\Mapping\ClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:216
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  24. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php:78
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  25. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:311
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  26. Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:281
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  27. class_exists() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  28. spl_autoload_call() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:46:27 Europe/Berlin] PHP  29. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:0
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP Fatal error:  Cannot use Doctrine\ORM\Mapping as ORM because the name is already in use in /home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/User.php on line 8
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:68
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:117
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   6. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:489
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   7. appDevDebugProjectContainer->getCacheWarmerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:427
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP   9. appDevDebugProjectContainer->getTwigService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  10. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3420
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  11. appDevDebugProjectContainer->getSecurity_AuthorizationCheckerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  12. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:2386
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  13. appDevDebugProjectContainer->getSecurity_Authentication_ManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  14. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3829
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  15. appDevDebugProjectContainer->getFosUser_UserProvider_UsernameService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  16. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3795
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  17. appDevDebugProjectContainer->getFosUser_UserManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  18. FOS\UserBundle\Doctrine\UserManager->__construct() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:1743
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  19. Doctrine\ORM\EntityManager->getRepository() /home/moktarba/www/yoblog/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php:40
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  20. Doctrine\ORM\Repository\DefaultRepositoryFactory->getRepository() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  21. Doctrine\ORM\EntityManager->getClassMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Repository/DefaultRepositoryFactory.php:44
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  22. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getMetadataFor() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:281
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  23. Doctrine\ORM\Mapping\ClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:216
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  24. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php:78
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  25. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:311
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  26. Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:281
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  27. class_exists() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  28. spl_autoload_call() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:47:18 Europe/Berlin] PHP  29. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:0
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP Fatal error:  Cannot use Doctrine\ORM\Mapping as ORM because the name is already in use in /home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/User.php on line 8
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   7. Symfony\Bundle\FrameworkBundle\Command\CacheClearCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   8. Symfony\Bundle\FrameworkBundle\Command\CacheClearCommand->warmup() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/CacheClearCommand.php:96
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP   9. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/CacheClearCommand.php:134
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  10. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:117
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  11. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:489
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  12. ap_DevDebugProjectContainer->getCacheWarmerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  13. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:427
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  14. ap_DevDebugProjectContainer->getTwigService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  15. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3420
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  16. ap_DevDebugProjectContainer->getSecurity_AuthorizationCheckerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  17. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:2386
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  18. ap_DevDebugProjectContainer->getSecurity_Authentication_ManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  19. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3829
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  20. ap_DevDebugProjectContainer->getFosUser_UserProvider_UsernameService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  21. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3795
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  22. ap_DevDebugProjectContainer->getFosUser_UserManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  23. FOS\UserBundle\Doctrine\UserManager->__construct() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:1743
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  24. Doctrine\ORM\EntityManager->getRepository() /home/moktarba/www/yoblog/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php:40
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  25. Doctrine\ORM\Repository\DefaultRepositoryFactory->getRepository() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  26. Doctrine\ORM\EntityManager->getClassMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Repository/DefaultRepositoryFactory.php:44
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  27. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getMetadataFor() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:281
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  28. Doctrine\ORM\Mapping\ClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:216
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  29. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php:78
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  30. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:311
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  31. Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:281
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  32. class_exists() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  33. spl_autoload_call() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:48:22 Europe/Berlin] PHP  34. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:0
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP Fatal error:  Access level to Blog\BlogBundle\Entity\User::$id must be protected (as in class FOS\UserBundle\Model\User) or weaker in /home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/User.php on line 16
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:68
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:117
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   6. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:489
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   7. appDevDebugProjectContainer->getCacheWarmerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:427
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP   9. appDevDebugProjectContainer->getTwigService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  10. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3420
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  11. appDevDebugProjectContainer->getSecurity_AuthorizationCheckerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  12. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:2386
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  13. appDevDebugProjectContainer->getSecurity_Authentication_ManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  14. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3829
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  15. appDevDebugProjectContainer->getFosUser_UserProvider_UsernameService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  16. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:3795
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  17. appDevDebugProjectContainer->getFosUser_UserManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  18. FOS\UserBundle\Doctrine\UserManager->__construct() /home/moktarba/www/yoblog/var/cache/dev/appDevDebugProjectContainer.php:1743
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  19. Doctrine\ORM\EntityManager->getRepository() /home/moktarba/www/yoblog/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php:40
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  20. Doctrine\ORM\Repository\DefaultRepositoryFactory->getRepository() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  21. Doctrine\ORM\EntityManager->getClassMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Repository/DefaultRepositoryFactory.php:44
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  22. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getMetadataFor() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:281
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  23. Doctrine\ORM\Mapping\ClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:216
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  24. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php:78
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  25. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:311
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  26. Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:281
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  27. class_exists() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  28. spl_autoload_call() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  29. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:0
+[15-Sep-2016 17:51:24 Europe/Berlin] PHP  30. require_once() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php:142
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP Fatal error:  Access level to Blog\BlogBundle\Entity\User::$id must be protected (as in class FOS\UserBundle\Model\User) or weaker in /home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/User.php on line 16
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   7. Symfony\Bundle\FrameworkBundle\Command\CacheClearCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   8. Symfony\Bundle\FrameworkBundle\Command\CacheClearCommand->warmup() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/CacheClearCommand.php:96
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP   9. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/CacheClearCommand.php:134
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  10. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:117
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  11. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:489
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  12. ap_DevDebugProjectContainer->getCacheWarmerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  13. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:427
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  14. ap_DevDebugProjectContainer->getTwigService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  15. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3420
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  16. ap_DevDebugProjectContainer->getSecurity_AuthorizationCheckerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  17. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:2386
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  18. ap_DevDebugProjectContainer->getSecurity_Authentication_ManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  19. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3829
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  20. ap_DevDebugProjectContainer->getFosUser_UserProvider_UsernameService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  21. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3795
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  22. ap_DevDebugProjectContainer->getFosUser_UserManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  23. FOS\UserBundle\Doctrine\UserManager->__construct() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:1743
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  24. Doctrine\ORM\EntityManager->getRepository() /home/moktarba/www/yoblog/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php:40
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  25. Doctrine\ORM\Repository\DefaultRepositoryFactory->getRepository() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  26. Doctrine\ORM\EntityManager->getClassMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Repository/DefaultRepositoryFactory.php:44
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  27. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getMetadataFor() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:281
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  28. Doctrine\ORM\Mapping\ClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:216
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  29. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php:78
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  30. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:311
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  31. Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:281
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  32. class_exists() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  33. spl_autoload_call() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  34. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:0
+[15-Sep-2016 17:51:38 Europe/Berlin] PHP  35. require_once() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php:142
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP Fatal error:  Access level to Blog\BlogBundle\Entity\User::$email must be protected (as in class FOS\UserBundle\Model\User) or weaker in /home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/User.php on line 16
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP Stack trace:
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   7. Symfony\Bundle\FrameworkBundle\Command\CacheClearCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   8. Symfony\Bundle\FrameworkBundle\Command\CacheClearCommand->warmup() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/CacheClearCommand.php:96
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP   9. Symfony\Component\HttpKernel\Kernel->boot() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/CacheClearCommand.php:134
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  10. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:117
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  11. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:489
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  12. ap_DevDebugProjectContainer->getCacheWarmerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  13. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:427
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  14. ap_DevDebugProjectContainer->getTwigService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  15. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3420
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  16. ap_DevDebugProjectContainer->getSecurity_AuthorizationCheckerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  17. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:2386
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  18. ap_DevDebugProjectContainer->getSecurity_Authentication_ManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  19. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3829
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  20. ap_DevDebugProjectContainer->getFosUser_UserProvider_UsernameService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  21. Symfony\Component\DependencyInjection\Container->get() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:3795
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  22. ap_DevDebugProjectContainer->getFosUser_UserManagerService() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  23. FOS\UserBundle\Doctrine\UserManager->__construct() /home/moktarba/www/yoblog/var/cache/de_/ap_DevDebugProjectContainer.php:1743
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  24. Doctrine\ORM\EntityManager->getRepository() /home/moktarba/www/yoblog/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php:40
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  25. Doctrine\ORM\Repository\DefaultRepositoryFactory->getRepository() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  26. Doctrine\ORM\EntityManager->getClassMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Repository/DefaultRepositoryFactory.php:44
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  27. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getMetadataFor() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:281
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  28. Doctrine\ORM\Mapping\ClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:216
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  29. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->loadMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataFactory.php:78
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  30. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:311
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  31. Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:281
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  32. class_exists() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  33. spl_autoload_call() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:40
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  34. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php:0
+[15-Sep-2016 17:52:23 Europe/Berlin] PHP  35. require_once() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/DebugClassLoader.php:142
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP Fatal error:  Class 'FOS\UserBundle\Entity\User' not found in /home/moktarba/www/yoblog/src/Blog/BlogBundle/Entity/User.php on line 17
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   7. Doctrine\Bundle\DoctrineBundle\Command\Proxy\UpdateSchemaDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   8. Doctrine\ORM\Tools\Console\Command\SchemaTool\AbstractCommand->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-bundle/Command/Proxy/UpdateSchemaDoctrineCommand.php:50
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP   9. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getAllMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php:59
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP  10. Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain->getAllClassNames() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:114
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP  11. Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver->getAllClassNames() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/MappingDriverChain.php:128
+[16-Sep-2016 10:18:53 Europe/Berlin] PHP  12. require_once() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/AnnotationDriver.php:236
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP Fatal error:  Class 'FOS\UserBundle\Propel\om\BaseUser' not found in /home/moktarba/www/yoblog/vendor/friendsofsymfony/user-bundle/Propel/User.php on line 18
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   7. Doctrine\Bundle\DoctrineBundle\Command\Proxy\UpdateSchemaDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   8. Doctrine\ORM\Tools\Console\Command\SchemaTool\AbstractCommand->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-bundle/Command/Proxy/UpdateSchemaDoctrineCommand.php:50
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP   9. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getAllMetadata() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php:59
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  10. Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain->getAllClassNames() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:114
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  11. Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver->getAllClassNames() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/MappingDriverChain.php:128
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  12. require_once() /home/moktarba/www/yoblog/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/AnnotationDriver.php:236
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  13. Symfony\Component\Debug\ErrorHandler::handleFatalError() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php:0
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  14. Symfony\Component\Debug\ErrorHandler->handleException() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php:602
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  15. Symfony\Component\Debug\FatalErrorHandler\ClassNotFoundFatalErrorHandler->handleError() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php:530
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  16. Symfony\Component\Debug\FatalErrorHandler\ClassNotFoundFatalErrorHandler->getClassCandidates() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/FatalErrorHandler/ClassNotFoundFatalErrorHandler.php:62
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  17. Symfony\Component\Debug\FatalErrorHandler\ClassNotFoundFatalErrorHandler->findClassInPath() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/FatalErrorHandler/ClassNotFoundFatalErrorHandler.php:118
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  18. Symfony\Component\Debug\FatalErrorHandler\ClassNotFoundFatalErrorHandler->convertFileToClass() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/FatalErrorHandler/ClassNotFoundFatalErrorHandler.php:143
+[16-Sep-2016 10:20:14 Europe/Berlin] PHP  19. require_once() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Debug/FatalErrorHandler/ClassNotFoundFatalErrorHandler.php:188
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\Entity\Category::setUserName() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 46
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[16-Sep-2016 10:27:59 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\Entity\Category::setUserName() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 46
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[16-Sep-2016 10:32:43 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\Entity\Category::setUserName() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 46
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[16-Sep-2016 10:35:25 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\Entity\User::setUsernameame() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 55
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[16-Sep-2016 12:02:25 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\Entity\User::setRole() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 60
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[16-Sep-2016 12:14:16 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\Entity\User::setFirstnamename() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 61
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[16-Sep-2016 12:20:30 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\DataFixtures\ORM\BlogFixtures::get() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 14
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[16-Sep-2016 16:19:51 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP Fatal error:  Call to undefined method Blog\BlogBundle\DataFixtures\ORM\BlogFixtures::getContainer() in /home/moktarba/www/yoblog/src/Blog/BlogBundle/DataFixtures/ORM/BlogFixtures.php on line 14
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP Stack trace:
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   1. {main}() /home/moktarba/www/yoblog/bin/console:0
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   2. Symfony\Component\Console\Application->run() /home/moktarba/www/yoblog/bin/console:29
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:117
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   4. Symfony\Component\Console\Application->doRun() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:80
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:186
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   6. Symfony\Component\Console\Command\Command->run() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:834
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   7. Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand->execute() /home/moktarba/www/yoblog/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:256
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   8. Doctrine\Common\DataFixtures\Executor\ORMExecutor->execute() /home/moktarba/www/yoblog/vendor/doctrine/doctrine-fixtures-bundle/Command/LoadDataFixturesDoctrineCommand.php:118
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP   9. Doctrine\ORM\EntityManager->transactional() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:85
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP  10. call_user_func() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP  11. Doctrine\Common\DataFixtures\Executor\ORMExecutor->Doctrine\Common\DataFixtures\Executor\{closure}() /home/moktarba/www/yoblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:233
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP  12. Doctrine\Common\DataFixtures\Executor\AbstractExecutor->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/ORMExecutor.php:83
+[16-Sep-2016 16:20:18 Europe/Berlin] PHP  13. Blog\BlogBundle\DataFixtures\ORM\BlogFixtures->load() /home/moktarba/www/yoblog/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/Executor/AbstractExecutor.php:121

@@ -1,0 +1,31 @@
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+     <h1></h1>
+    <div >
+       
+            {% for post in posts %}
+                <tr>
+                    
+                    <h4>{{ post.title }}</h4>
+                    <img src="{{ post.image }}">
+                    <p>{{ post.description }}</p>
+                    <span><b>créé le : </b> {% if post.createdAt %}{{ post.createdAt|date('d-m-Y à H:i:s') }}{% endif %}</span>
+                    <td>
+                        <ul>
+                            <li>
+                                 <a href="{{ path('blog_blog_single', { 'id': post.id }) }}"><button class="btn waves-effect waves-light"  
+                                    <i class="material-icons right">voir plus</i>
+                                  </button>
+                                  </a>      
+                            </li>
+                          
+                        </ul>
+                    </td>
+            </tr><hr>
+            {% endfor %}
+       
+
+    </div>
+{% endblock %}
