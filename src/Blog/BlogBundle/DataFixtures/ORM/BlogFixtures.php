@@ -3,14 +3,23 @@ namespace Blog\BlogBundle\DataFixtures\ORM;
 
 use Doctrine\Common\DataFixtures\FixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
+use Symfony\Component\DependencyInjection\ContainerAwareInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
+use Doctrine\Common\DataFixtures\AbstractFixture;
+
 use Blog\BlogBundle\Entity\Post;
 
 
-class BlogFixtures implements FixtureInterface
+class BlogFixtures extends AbstractFixture implements FixtureInterface, ContainerAwareInterface
 {
+	private $container;
+	public function setContainer(ContainerInterface $container = null){
+		$this->getContainer = $container;
+	}
+	
     public function load(ObjectManager $manager)
     {
-
+	
         $userManager = $this->getContainer->get('fos_user.user_manager');
  /*       
          // Fixtures for categories
