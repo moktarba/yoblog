@@ -1,0 +1,17 @@
+{# empty Twig template #}
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% block body %}
+</div>
+  <div class="fos_user_user_show">
+    <p><span>Nom d'utilisateur:</span> {{ 'profile.show.username'|trans }}: {{ user.username }}</p>
+    <p><span>Mon email:</span>{{ 'profile.show.email'|trans }}: {{ user.email }}</p>
+    <p><span>Mon prénom:</span>{{ 'profile.show.email'|trans }}: {{ user.firstname }}</p>
+    <p><span>Mon nom:</span>{{ 'profile.show.name'|trans }}: {{ user.name }}</p>
+    <p><span>Ma Biographie:</span>{{ 'profile.show.bio'|trans }}: {{ user.bio }}</p>
+    <p><span>Mon avatar:</span>{{ 'profile.show.avatar'|trans }}: {{ user.avatar }}</p>
+    <p><span>Date de création:</span>{{ 'profile.show.createdAt'|trans }}: {{ user.createdAt }}</p>
+    <p><span>Date de mise à jour:</span>{{ 'profile.show.updatedAt'|trans }}: {{ user.updatedAt }}</p>
+    <p><span>Mon email:</span>{{ 'profile.show.email'|trans }}: {{ user.email }}</p>
+  </div>
+{% endblock %}
