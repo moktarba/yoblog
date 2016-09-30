@@ -100,192 +100,251 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        if (0 === strpos($pathinfo, '/admin')) {
-            if (0 === strpos($pathinfo, '/admin/post')) {
-                // post_index
-                if (rtrim($pathinfo, '/') === '/admin/post') {
-                    if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'HEAD'));
-                        goto not_post_index;
-                    }
-
-                    if (substr($pathinfo, -1) !== '/') {
-                        return $this->redirect($pathinfo.'/', 'post_index');
-                    }
-
-                    return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::indexAction',  '_route' => 'post_index',);
+        if (0 === strpos($pathinfo, '/comment')) {
+            // comment_index
+            if (rtrim($pathinfo, '/') === '/comment') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_comment_index;
                 }
-                not_post_index:
 
-                // post_show
-                if (preg_match('#^/admin/post/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
-                    if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'HEAD'));
-                        goto not_post_show;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'post_show')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::showAction',));
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'comment_index');
                 }
-                not_post_show:
 
-                // post_new
-                if ($pathinfo === '/admin/post/new') {
-                    if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                        goto not_post_new;
-                    }
-
-                    return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::newAction',  '_route' => 'post_new',);
-                }
-                not_post_new:
-
-                // post_edit
-                if (preg_match('#^/admin/post/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
-                    if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                        goto not_post_edit;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'post_edit')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::editAction',));
-                }
-                not_post_edit:
-
-                // post_delete
-                if (preg_match('#^/admin/post/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
-                    if ($this->context->getMethod() != 'DELETE') {
-                        $allow[] = 'DELETE';
-                        goto not_post_delete;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'post_delete')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::deleteAction',));
-                }
-                not_post_delete:
-
+                return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CommentController::indexAction',  '_route' => 'comment_index',);
             }
+            not_comment_index:
 
-            if (0 === strpos($pathinfo, '/admin/category')) {
-                // category_index
-                if (rtrim($pathinfo, '/') === '/admin/category') {
-                    if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'HEAD'));
-                        goto not_category_index;
-                    }
-
-                    if (substr($pathinfo, -1) !== '/') {
-                        return $this->redirect($pathinfo.'/', 'category_index');
-                    }
-
-                    return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::indexAction',  '_route' => 'category_index',);
+            // comment_new
+            if ($pathinfo === '/comment/new') {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_comment_new;
                 }
-                not_category_index:
 
-                // category_show
-                if (preg_match('#^/admin/category/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
-                    if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'HEAD'));
-                        goto not_category_show;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'category_show')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::showAction',));
-                }
-                not_category_show:
-
-                // category_new
-                if ($pathinfo === '/admin/category/new') {
-                    if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                        goto not_category_new;
-                    }
-
-                    return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::newAction',  '_route' => 'category_new',);
-                }
-                not_category_new:
-
-                // category_edit
-                if (preg_match('#^/admin/category/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
-                    if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                        goto not_category_edit;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'category_edit')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::editAction',));
-                }
-                not_category_edit:
-
-                // category_delete
-                if (preg_match('#^/admin/category/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
-                    if ($this->context->getMethod() != 'DELETE') {
-                        $allow[] = 'DELETE';
-                        goto not_category_delete;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'category_delete')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::deleteAction',));
-                }
-                not_category_delete:
-
+                return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CommentController::newAction',  '_route' => 'comment_new',);
             }
+            not_comment_new:
 
-            if (0 === strpos($pathinfo, '/admin/user')) {
-                // user_index
-                if (rtrim($pathinfo, '/') === '/admin/user') {
-                    if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'HEAD'));
-                        goto not_user_index;
-                    }
-
-                    if (substr($pathinfo, -1) !== '/') {
-                        return $this->redirect($pathinfo.'/', 'user_index');
-                    }
-
-                    return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::indexAction',  '_route' => 'user_index',);
+            // comment_show
+            if (preg_match('#^/comment/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_comment_show;
                 }
-                not_user_index:
 
-                // user_show
-                if (preg_match('#^/admin/user/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
-                    if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'HEAD'));
-                        goto not_user_show;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'user_show')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::showAction',));
-                }
-                not_user_show:
-
-                // user_new
-                if ($pathinfo === '/admin/user/new') {
-                    if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                        goto not_user_new;
-                    }
-
-                    return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::newAction',  '_route' => 'user_new',);
-                }
-                not_user_new:
-
-                // user_edit
-                if (preg_match('#^/admin/user/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
-                    if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                        $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                        goto not_user_edit;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'user_edit')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::editAction',));
-                }
-                not_user_edit:
-
-                // user_delete
-                if (preg_match('#^/admin/user/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
-                    if ($this->context->getMethod() != 'DELETE') {
-                        $allow[] = 'DELETE';
-                        goto not_user_delete;
-                    }
-
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'user_delete')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::deleteAction',));
-                }
-                not_user_delete:
-
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'comment_show')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CommentController::showAction',));
             }
+            not_comment_show:
+
+            // comment_edit
+            if (preg_match('#^/comment/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_comment_edit;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'comment_edit')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CommentController::editAction',));
+            }
+            not_comment_edit:
+
+            // comment_delete
+            if (preg_match('#^/comment/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                if ($this->context->getMethod() != 'DELETE') {
+                    $allow[] = 'DELETE';
+                    goto not_comment_delete;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'comment_delete')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CommentController::deleteAction',));
+            }
+            not_comment_delete:
+
+        }
+
+        if (0 === strpos($pathinfo, '/post')) {
+            // post_index
+            if (rtrim($pathinfo, '/') === '/post') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_post_index;
+                }
+
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'post_index');
+                }
+
+                return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::indexAction',  '_route' => 'post_index',);
+            }
+            not_post_index:
+
+            // post_show
+            if (preg_match('#^/post/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_post_show;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'post_show')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::showAction',));
+            }
+            not_post_show:
+
+            // post_new
+            if ($pathinfo === '/post/new') {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_post_new;
+                }
+
+                return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::newAction',  '_route' => 'post_new',);
+            }
+            not_post_new:
+
+            // post_edit
+            if (preg_match('#^/post/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_post_edit;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'post_edit')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::editAction',));
+            }
+            not_post_edit:
+
+            // post_delete
+            if (preg_match('#^/post/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
+                if ($this->context->getMethod() != 'DELETE') {
+                    $allow[] = 'DELETE';
+                    goto not_post_delete;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'post_delete')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\PostController::deleteAction',));
+            }
+            not_post_delete:
+
+        }
+
+        if (0 === strpos($pathinfo, '/category')) {
+            // category_index
+            if (rtrim($pathinfo, '/') === '/category') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_category_index;
+                }
+
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'category_index');
+                }
+
+                return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::indexAction',  '_route' => 'category_index',);
+            }
+            not_category_index:
+
+            // category_show
+            if (preg_match('#^/category/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_category_show;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'category_show')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::showAction',));
+            }
+            not_category_show:
+
+            // category_new
+            if ($pathinfo === '/category/new') {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_category_new;
+                }
+
+                return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::newAction',  '_route' => 'category_new',);
+            }
+            not_category_new:
+
+            // category_edit
+            if (preg_match('#^/category/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_category_edit;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'category_edit')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::editAction',));
+            }
+            not_category_edit:
+
+            // category_delete
+            if (preg_match('#^/category/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
+                if ($this->context->getMethod() != 'DELETE') {
+                    $allow[] = 'DELETE';
+                    goto not_category_delete;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'category_delete')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\CategoryController::deleteAction',));
+            }
+            not_category_delete:
+
+        }
+
+        if (0 === strpos($pathinfo, '/admin/user')) {
+            // user_index
+            if (rtrim($pathinfo, '/') === '/admin/user') {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_user_index;
+                }
+
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'user_index');
+                }
+
+                return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::indexAction',  '_route' => 'user_index',);
+            }
+            not_user_index:
+
+            // user_show
+            if (preg_match('#^/admin/user/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
+                    goto not_user_show;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'user_show')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::showAction',));
+            }
+            not_user_show:
+
+            // user_new
+            if ($pathinfo === '/admin/user/new') {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_user_new;
+                }
+
+                return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::newAction',  '_route' => 'user_new',);
+            }
+            not_user_new:
+
+            // user_edit
+            if (preg_match('#^/admin/user/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                    goto not_user_edit;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'user_edit')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::editAction',));
+            }
+            not_user_edit:
+
+            // user_delete
+            if (preg_match('#^/admin/user/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
+                if ($this->context->getMethod() != 'DELETE') {
+                    $allow[] = 'DELETE';
+                    goto not_user_delete;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'user_delete')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\UserController::deleteAction',));
+            }
+            not_user_delete:
 
         }
 
@@ -301,6 +360,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         // blog_blog_single
         if (0 === strpos($pathinfo, '/post') && preg_match('#^/post/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'blog_blog_single')), array (  '_controller' => 'Blog\\BlogBundle\\Controller\\HomeController::singleAction',));
+        }
+
+        // blog_blog_profile
+        if ($pathinfo === '/MonCompte') {
+            return array (  '_controller' => 'Blog\\BlogBundle\\Controller\\HomeController::profileAction',  '_route' => 'blog_blog_profile',);
         }
 
         if (0 === strpos($pathinfo, '/log')) {

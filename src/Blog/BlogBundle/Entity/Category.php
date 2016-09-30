@@ -1,5 +1,5 @@
 <?php
-
+use Doctrine\Common\Collections\ArrayCollection;
 namespace Blog\BlogBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -27,11 +27,11 @@ class Category
      * @ORM\Column(name="name", type="string", length=255)
      */
     private $name;
-    
+
         /**
      * @var string
      *
-     * @ORM\Column(name="user", type="string", length=255)
+     * @ORM\Column(name="user", type="string", length=255, nullable= true)
      */
     private $user;
 

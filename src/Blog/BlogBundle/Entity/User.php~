@@ -1,5 +1,5 @@
 <?php
-
+use Doctrine\Common\Collections\ArrayCollection;
 namespace Blog\BlogBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -15,6 +15,13 @@ use FOS\UserBundle\Model\User as BaseUser;
  */
 class User extends BaseUser
 {
+
+    public function __construct()
+    {
+      parent::__construct();
+
+    }
+
         /**
      * @var integer $id
      *
@@ -27,104 +34,47 @@ class User extends BaseUser
     /**
      * @var string
      *
-     * @ORM\Column(name="firstname", type="string", length=255)
+     * @ORM\Column(name="name", type="string", length=255, nullable=true)
+     */
+    protected $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="firstname", type="string", length=255, nullable=true)
      */
     protected $firstname;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="bio", type="text")
+     * @ORM\Column(name="bio", type="text", nullable=true)
      */
     protected $bio;
-    
-    
-        /**
-     * @var string
-     *
-     * @ORM\Column(name="avatar", type="string", length=255)
-     */
-    protected $avatar;
 
 
     /**
-     * Get id
-     *
-     * @return int
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
+    * @ORM\OneToOne(targetEntity="Image")
+    *  @ORM\JoinColumn(name="image_id", referencedColumnName="id")
+    */
+    protected $image;
+
 
 
     /**
-     * Set firstname
+     * @var \DateTime
      *
-     * @return string
+     * @ORM\Column(name="created_at", type="datetime", nullable = true)
      */
-    public function setFirstname($firstname)
-    {
-        $this->firstname = $firstname;
-
-        return $this;
-    }
+    private $createdAt;
 
     /**
-     * Get firstname
+     * @var \DateTime
      *
-     * @return string
+     * @ORM\Column(name="updated_at", type="datetime" ,nullable = true)
      */
-    public function getFirstname()
-    {
-        return $this->firstname;
-    }
+    private $updatedAt;
 
-    /**
-     * Set bio
-     *
-     * @param string $bio
-     *
-     * @return User
-     */
-    public function setBio($bio)
-    {
-        $this->bio = $bio;
 
-        return $this;
-    }
 
-    /**
-     * Get bio
-     *
-     * @return string
-     */
-    public function getBio()
-    {
-        return $this->bio;
-    }
-
-    /**
-     * Set avatar
-     *
-     * @param string $avatar
-     *
-     * @return User
-     */
-    public function setAvatar($avatar)
-    {
-        $this->avatar = $avatar;
-
-        return $this;
-    }
-
-    /**
-     * Get avatar
-     *
-     * @return string
-     */
-    public function getAvatar()
-    {
-        return $this->avatar;
-    }
 }

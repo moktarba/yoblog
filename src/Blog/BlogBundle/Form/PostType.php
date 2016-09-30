@@ -5,7 +5,6 @@ namespace Blog\BlogBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use Symfony\Component\Form\Extension\Core\Type\DateTimeType;
 
 class PostType extends AbstractType
 {
@@ -18,8 +17,8 @@ class PostType extends AbstractType
         $builder
             ->add('title')
             ->add('description')
-            ->add('createdAt', DateTimeType::class)
-            ->add('updatedAt', DateTimeType::class)
+            ->add('createdAt', 'datetime')
+            ->add('updatedAt', 'datetime')
             ->add('image')
             ->add('category')
             ->add('user')

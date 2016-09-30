@@ -7,13 +7,13 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Name</th>
+
                 <th>Firstname</th>
                 <th>Email</th>
                 <th>Bio</th>
                 <th>Createdat</th>
                 <th>Updatedat</th>
-                <th>Role</th>
+
                 <th>Avatar</th>
                 <th>Actions</th>
             </tr>
@@ -22,13 +22,13 @@
         {% for user in users %}
             <tr>
                 <td><a href="{{ path('user_show', { 'id': user.id }) }}">{{ user.id }}</a></td>
-                <td>{{ user.name }}</td>
+
                 <td>{{ user.firstname }}</td>
                 <td>{{ user.email }}</td>
                 <td>{{ user.bio }}</td>
                 <td>{% if user.createdAt %}{{ user.createdAt|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>{% if user.updatedAt %}{{ user.updatedAt|date('Y-m-d H:i:s') }}{% endif %}</td>
-                <td>{{ user.role }}</td>
+  
                 <td>{{ user.avatar }}</td>
                 <td>
                     <ul>

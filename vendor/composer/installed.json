@@ -126,69 +126,6 @@
         ]
     },
     {
-        "name": "twig/twig",
-        "version": "v1.24.2",
-        "version_normalized": "1.24.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/twigphp/Twig.git",
-            "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/twigphp/Twig/zipball/33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
-            "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.7"
-        },
-        "require-dev": {
-            "symfony/debug": "~2.7",
-            "symfony/phpunit-bridge": "~2.7"
-        },
-        "time": "2016-09-01 17:50:53",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.24-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Twig_": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com",
-                "homepage": "http://fabien.potencier.org",
-                "role": "Lead Developer"
-            },
-            {
-                "name": "Armin Ronacher",
-                "email": "armin.ronacher@active-4.com",
-                "role": "Project Founder"
-            },
-            {
-                "name": "Twig Team",
-                "homepage": "http://twig.sensiolabs.org/contributors",
-                "role": "Contributors"
-            }
-        ],
-        "description": "Twig, the flexible, fast, and secure template language for PHP",
-        "homepage": "http://twig.sensiolabs.org",
-        "keywords": [
-            "templating"
-        ]
-    },
-    {
         "name": "symfony/polyfill-util",
         "version": "v1.2.0",
         "version_normalized": "1.2.0.0",
@@ -672,46 +609,6 @@
             "polyfill",
             "portable",
             "shim"
-        ]
-    },
-    {
-        "name": "psr/log",
-        "version": "1.0.0",
-        "version_normalized": "1.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/php-fig/log.git",
-            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
-            "shasum": ""
-        },
-        "time": "2012-12-21 11:40:51",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Psr\\Log\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "PHP-FIG",
-                "homepage": "http://www.php-fig.org/"
-            }
-        ],
-        "description": "Common interface for logging libraries",
-        "keywords": [
-            "log",
-            "psr",
-            "psr-3"
         ]
     },
     {
@@ -2177,72 +2074,18 @@
         ]
     },
     {
-        "name": "twig/extensions",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/twigphp/Twig-extensions.git",
-            "reference": "afd3a08ad948e034b4ffdab23f53925538a91635"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/afd3a08ad948e034b4ffdab23f53925538a91635",
-            "reference": "afd3a08ad948e034b4ffdab23f53925538a91635",
-            "shasum": ""
-        },
-        "require": {
-            "twig/twig": "~1.20|~2.0"
-        },
-        "require-dev": {
-            "symfony/translation": "~2.3"
-        },
-        "suggest": {
-            "symfony/translation": "Allow the time_diff output to be translated"
-        },
-        "time": "2016-01-28 10:03:51",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.3-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-0": {
-                "Twig_Extensions_": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Common additional features for Twig that do not directly belong in core",
-        "homepage": "http://twig.sensiolabs.org/doc/extensions/index.html",
-        "keywords": [
-            "i18n",
-            "text"
-        ]
-    },
-    {
         "name": "friendsofsymfony/user-bundle",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git",
-            "reference": "4cb7a29869e4a9bef4f51986d48b1a3af76d3f48"
+            "reference": "9f86fe2d69df11159fca9ec44b529cb1df5e14aa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/4cb7a29869e4a9bef4f51986d48b1a3af76d3f48",
-            "reference": "4cb7a29869e4a9bef4f51986d48b1a3af76d3f48",
+            "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/9f86fe2d69df11159fca9ec44b529cb1df5e14aa",
+            "reference": "9f86fe2d69df11159fca9ec44b529cb1df5e14aa",
             "shasum": ""
         },
         "require": {
@@ -2267,7 +2110,7 @@
         "suggest": {
             "willdurand/propel-typehintable-behavior": "Needed when using the propel implementation"
         },
-        "time": "2016-09-12 15:04:02",
+        "time": "2016-09-28 09:10:06",
         "type": "symfony-bundle",
         "extra": {
             "branch-alias": {
@@ -2278,7 +2121,10 @@
         "autoload": {
             "psr-4": {
                 "FOS\\UserBundle\\": ""
-            }
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
@@ -2361,6 +2207,172 @@
         "keywords": [
             "Fixture",
             "persistence"
+        ]
+    },
+    {
+        "name": "twig/extensions",
+        "version": "v1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig-extensions.git",
+            "reference": "531eaf4b9ab778b1d7cdd10d40fc6aa74729dfee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/531eaf4b9ab778b1d7cdd10d40fc6aa74729dfee",
+            "reference": "531eaf4b9ab778b1d7cdd10d40fc6aa74729dfee",
+            "shasum": ""
+        },
+        "require": {
+            "twig/twig": "~1.20|~2.0"
+        },
+        "require-dev": {
+            "symfony/translation": "~2.3"
+        },
+        "suggest": {
+            "symfony/translation": "Allow the time_diff output to be translated"
+        },
+        "time": "2016-09-22 16:50:57",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Twig_Extensions_": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Common additional features for Twig that do not directly belong in core",
+        "homepage": "http://twig.sensiolabs.org/doc/extensions/index.html",
+        "keywords": [
+            "i18n",
+            "text"
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+            "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-09-19 16:02:08",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.25.0",
+        "version_normalized": "1.25.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "f16a634ab08d87e520da5671ec52153d627f10f6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/f16a634ab08d87e520da5671ec52153d627f10f6",
+            "reference": "f16a634ab08d87e520da5671ec52153d627f10f6",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.7"
+        },
+        "require-dev": {
+            "symfony/debug": "~2.7",
+            "symfony/phpunit-bridge": "~2.7"
+        },
+        "time": "2016-09-21 23:05:12",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.25-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "http://twig.sensiolabs.org/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
         ]
     }
 ]

@@ -1,20 +1,23 @@
 blog_blog_post:
     resource: "@BlogBlogBundle/Resources/config/routing/post.yml"
-    prefix:   /admin/post
-    
+    prefix:   /post
+
 blog_blog_category:
     resource: "@BlogBlogBundle/Resources/config/routing/category.yml"
-    prefix:   /admin/category
+    prefix:   /category
 
 blog_blog_user:
     resource: "@BlogBlogBundle/Resources/config/routing/user.yml"
     prefix:   /admin/user
-    
+
 blog_blog_homepage:
     path:     /
     defaults: { _controller: BlogBlogBundle:Home:blog }
-    
+
 blog_blog_single:
     path:     /post/{id}
     defaults: { _controller: BlogBlogBundle:Home:single }
-    
+
+blog_blog_profile:
+    path:     /MonCompte
+    defaults: { _controller: BlogBlogBundle:Home:profile }

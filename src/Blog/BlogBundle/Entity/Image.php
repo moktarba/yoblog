@@ -1,5 +1,5 @@
 <?php
-
+use Doctrine\Common\Collections\ArrayCollection;
 namespace Blog\BlogBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -36,10 +36,11 @@ class Image
     private $name;
 
 
+
     /**
      * Get id
      *
-     * @return int
+     * @return integer
      */
     public function getId()
     {

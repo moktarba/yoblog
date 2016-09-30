@@ -5,7 +5,6 @@ namespace Blog\BlogBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use Symfony\Component\Form\Extension\Core\Type\DateTimeType;
 
 class UserType extends AbstractType
 {
@@ -18,12 +17,10 @@ class UserType extends AbstractType
         $builder
             ->add('name')
             ->add('firstname')
-            ->add('email')
             ->add('bio')
-            ->add('createdAt', DateTimeType::class)
-            ->add('updatedAt', DateTimeType::class)
-            ->add('role')
-            ->add('avatar')
+            ->add('createdAt', 'datetime')
+            ->add('updatedAt', 'datetime')
+            ->add('image')
         ;
     }
     

@@ -1,5 +1,5 @@
 <?php
-
+use Doctrine\Common\Collections\ArrayCollection;
 namespace Blog\BlogBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -36,61 +36,4 @@ class Image
     private $name;
 
 
-    /**
-     * Get id
-     *
-     * @return int
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    /**
-     * Set path
-     *
-     * @param string $path
-     *
-     * @return Image
-     */
-    public function setPath($path)
-    {
-        $this->path = $path;
-
-        return $this;
-    }
-
-    /**
-     * Get path
-     *
-     * @return string
-     */
-    public function getPath()
-    {
-        return $this->path;
-    }
-
-    /**
-     * Set name
-     *
-     * @param string $name
-     *
-     * @return Image
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-
-        return $this;
-    }
-
-    /**
-     * Get name
-     *
-     * @return string
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
 }

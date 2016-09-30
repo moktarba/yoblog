@@ -1,5 +1,5 @@
 <?php
-
+use Doctrine\Common\Collections\ArrayCollection;
 namespace Blog\BlogBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -36,6 +36,11 @@ class Post
     private $description;
 
     /**
+     *  @ORM\OneToMany(targetEntity="Comment", mappedBy="post")
+     */
+    private $comments;
+
+    /**
      * @var \DateTime
      *
      * @ORM\Column(name="created_at", type="datetime")
@@ -50,31 +55,37 @@ class Post
     private $updatedAt;
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="image", type="text")
-     */
+    *  @ORM\OneToOne(targetEntity="Image")
+    *  @ORM\JoinColumn(name="image_id", referencedColumnName="id")
+    */
     private $image;
-    
+
     /**
-     * @var string
-     *
-     * @ORM\ManyToOne(targetEntity="Blog\BlogBundle\Entity\Category")
-     */
+    *  @ORM\ManyToOne(targetEntity="Category")
+    *  @ORM\JoinColumn(name="category_id", referencedColumnName="id")
+    */
     private $category;
-    
+
     /**
-     * @var string
-     *
-     * @ORM\Column(name="user", type="text")
+     *  @ORM\ManyToOne(targetEntity="User")
+     *  @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
     private $user;
 
 
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->comments = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
     /**
      * Get id
      *
-     * @return int
+     * @return integer
      */
     public function getId()
     {
@@ -178,27 +189,37 @@ class Post
     }
 
     /**
-     * Set published
+     * Add comment
      *
-     * @param string $published
+     * @param \Blog\BlogBundle\Entity\Comment $comment
      *
      * @return Post
      */
-    public function setPublished($published)
+    public function addComment(\Blog\BlogBundle\Entity\Comment $comment)
     {
-        $this->published = $published;
+        $this->comments[] = $comment;
 
         return $this;
     }
 
     /**
-     * Get published
+     * Remove comment
      *
-     * @return string
+     * @param \Blog\BlogBundle\Entity\Comment $comment
      */
-    public function getPublished()
+    public function removeComment(\Blog\BlogBundle\Entity\Comment $comment)
     {
-        return $this->published;
+        $this->comments->removeElement($comment);
+    }
+
+    /**
+     * Get comments
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getComments()
+    {
+        return $this->comments;
     }
 
     /**
@@ -208,7 +229,7 @@ class Post
      *
      * @return Post
      */
-    public function setImage($image)
+    public function setImage(\Blog\BlogBundle\Entity\Image $image = null)
     {
         $this->image = $image;
 
@@ -256,7 +277,7 @@ class Post
      *
      * @return Post
      */
-    public function setUser( $user )
+    public function setUser(\Blog\BlogBundle\Entity\User $user = null)
     {
         $this->user = $user;
 
